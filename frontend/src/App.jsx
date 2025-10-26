@@ -21,7 +21,7 @@ import useGetMyOrders from './hooks/useGetMyOrders'
 import useUpdateLocation from './hooks/useUpdateLocation'
 
 
-export const serverUrl = "http://localhost:8000"
+export const serverUrl = "https://food-delivery-app-3-ckq3.onrender.com"
 function App() {
   const { userData } = useSelector(state => state.user)
   const dispatch = useDispatch()
